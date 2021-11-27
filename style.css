@@ -1,66 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-*{
-    font-family: 'Lato', sans-serif;
-    list-style-type: none;
-    font-style: normal;
-    letter-spacing: 0em;
-}
-a{
-    text-decoration: none;
-    color: #000;
-}
-button{
-    color: white;
-    border: none;
-    outline: none;
-    background-color: #01996D;
-    border-radius: 4px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0px;
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&display=swap');
 
-.container{
-    width: 1413px;
-    margin: auto;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
-.header{
+.home__container{
+    background-color: #EEEFF1;
+}
+.container{
+    width: 1150px;
+    margin: auto;
+    padding: 0 20px;
+}
+header{
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
 }
-.header-a{
-    margin-top: 13px;
-}
-.nav{
-    margin-right: 85px;
-}
-.nav li{
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    margin-right: 69px;
-}
-.sign-in{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-right: 32px;
-}
-.menu-button{
-    margin-right: 42px;
-    padding: 13px 49px;
-    font-family: Lato;
-    font-size: 20px;
+.home__name{
+    font-family: Revalia;
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0px;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #34547A;
 }
-h1{
-    
+ul{
+    display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #34547A;
+}
+li{
+    padding-left: 42px;
+    list-style-type: none;
+}
+a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #34547A;
 }
