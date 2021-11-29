@@ -6,6 +6,21 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #727272;
+}
+h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 79px;
+    letter-spacing: 0em;
+}
 .home__container{
     background-color: #EEEFF1;
 }
@@ -17,6 +32,7 @@
 header{
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 }
 .home__name{
     font-family: Revalia;
@@ -30,6 +46,8 @@ header{
 }
 ul{
     display: flex;
+    padding-right: 10px;
+    padding-top: 20px;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -49,4 +67,136 @@ a{
 }
 a:hover{
     color: #34547A;
+}
+.home__design{
+    padding-top: 128px;
+    padding-bottom: 145px;
+    background-image: url(img/notebook.png);
+    background-repeat: no-repeat;
+    background-position: 80px 160px;
+}
+.home__design-content{
+    margin-left: 51%;
+}
+.home__design-content p{
+    margin-top: 35px;
+    margin-bottom: 52px;
+}
+.write-me{
+    border: none;
+    color: #fff;
+    /* outline: none; */
+    background-color: #34547A;
+    text-transform: uppercase;
+    padding: 20px 41px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+.about-me__h2{
+    margin-top: 119px;
+    margin-bottom: 39px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.about-me__p{
+    width: 540px;
+    padding-bottom: 92px;
+    margin: auto;
+    text-align: center;
+}
+.project{
+    background-color: #34547A;
+}
+.block__block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 99px;
+    padding-bottom: 95px;
+}
+.block__project{
+    background-image: url(img/project.png);
+    background-repeat: no-repeat;
+}
+.block__project-h3{
+    margin-left: 70px;
+    margin-top: 2px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+.block__project-P{
+    margin-left: 69px;
+    margin-top: 3px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+.block__me{
+    margin: 102px -20px 101px;
+    padding-bottom: 63px;
+    background-image: url(img/rectangle3.png);
+    background-size: 555px 450px;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.my_skills-h3{
+    padding-top: 102px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.my_skills-p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+.indicator{
+    width: 445px;
+    height: 4px;
+    margin-top: 11px;
+    margin-bottom: 28px;
+    background-color: #34547A;
+    border-right:  95px solid #C4C4C4;
+    border-color: #C4C4C4;
+}
+.how-i-work{
+    padding-top: 100px;
+    background-color: #EEEFF1;
+}
+.how-i-work__h2{
+    margin-bottom: 39px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.how-i-work__p{
+    width: 540px;
+    margin: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
 }
