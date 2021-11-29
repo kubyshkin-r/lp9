@@ -156,7 +156,7 @@ a:hover{
     padding-bottom: 40px;
     font-size: 32px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
@@ -199,4 +199,32 @@ a:hover{
     line-height: 26px;
     letter-spacing: 0em;
     text-align: center;
+}
+.how-i-work__video{
+    margin: auto;
+    margin-top: 49px;
+    margin-bottom: 96px;
+}
+.blockblock{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block1{
+    width: 25%;
+    height: 400px;
+    object-fit: cover;
+}
+.block2{
+    width: 25%;
+    height: 400px;
+    object-fit: cover;
+}
+.blockblock2{
+    margin-top: 72px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.block-program{
+
 }
